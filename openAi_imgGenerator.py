@@ -12,7 +12,7 @@ from PIL import Image
 import streamlit as st
 
 # fuction to generate img using OpenAI
-openai.api_key = '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'
+openai.api_key = 'API_KEY'
 
 def generate_img(description):
     img_response = openai.Image.create(
